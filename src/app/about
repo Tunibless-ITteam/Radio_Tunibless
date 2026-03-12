@@ -1,0 +1,223 @@
+
+export default function Page() {
+  return (
+    <>
+      
+<div className="relative flex min-h-screen flex-col">
+
+<header className="flex items-center justify-between border-b border-slate-200 dark:border-slate-800 px-6 md:px-20 py-4 bg-white dark:bg-background-dark sticky top-0 z-50">
+<div className="flex items-center gap-4">
+<div className="size-8">
+<img className="h-full w-full object-contain" data-alt="Tunibless logo depicting connection" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBAQJoIcPj5ly-lgqx2wocXbyQslyQ8OYEEgZFtmSXHGFaWaO7otqjg0x8bfPHTv95LEiKiR0wZHr17csE5nH1Bnvh79h1A0r1Ro8m97Aj9hZhqFz8Ivli0aYQh4vDdrKxZRULFnSOlaSvhRHojl3uSYrV5tSz2HceddpLeo8HonKCGXBrBopb-_Mquf1TtgrBZpLamO1WH4j__cOeYXyidfGoKkJAXnNF8LcAth7c5400EW6ihK_eQIpQrWG4iFIrTHSr4YyTI6QZH"/>
+</div>
+<h2 className="text-xl font-bold tracking-tight">Tunibless</h2>
+</div>
+<nav className="hidden md:flex flex-1 justify-end gap-8 items-center">
+<div className="flex items-center gap-9">
+<a className="text-sm font-medium hover:text-primary transition-colors" href="#">الرئيسية</a>
+<a className="text-sm font-bold text-primary" href="#">من نحن</a>
+<a className="text-sm font-medium hover:text-primary transition-colors" href="#">برامجنا</a>
+<a className="text-sm font-medium hover:text-primary transition-colors" href="#">اتصل بنا</a>
+</div>
+<button className="flex min-w-[100px] cursor-pointer items-center justify-center rounded-lg h-10 px-6 bg-primary text-background-dark text-sm font-bold hover:opacity-90 transition-opacity">تبرع الآن</button>
+</nav>
+<div className="md:hidden">
+<span className="material-symbols-outlined">menu</span>
+</div>
+</header>
+<main className="flex-1">
+
+<section className="relative h-[500px] flex items-center justify-center px-6 overflow-hidden">
+<div className="absolute inset-0 bg-cover bg-center" data-alt="Panoramic view of a bridge connecting modern architecture and cultural heritage" style={{ backgroundImage: "linear-gradient(rgba(16, 34, 21, 0.7), rgba(16, 34, 21, 0.5)), url('https://lh3.googleusercontent.com/aida-public/AB6AXuBwXpQOwNWAWmqHodaBOe_BB2fG-AENZrztcuuVq4HVzPJ_vkadidLZuqNTjSAlkyEc4nZuFZbaufr5UX90LWasGMUuyOnCJjSAxQBf2Si-_NJAvYFK7x3EIG864_FgEQx45oJ_69mfadAVHMHDKAnFxeSqD_Pe--j49dVmdVfL9RGD0zSSmocKi3DNcawWzejDjKa87Vj0DsQB9sHccSVU7NdqXgPJjra_wPshBGBofJMAJrd4tDiVFnMQe1pFX-HbQmTJkzqvJ4PC')" }}></div>
+<div className="relative z-10 max-w-4xl text-center">
+<h1 className="text-white text-4xl md:text-6xl font-black leading-tight tracking-tight mb-6">تجسير المستقبل: من تونس إلى ألمانيا</h1>
+<p className="text-white/90 text-lg md:text-xl font-normal max-w-2xl mx-auto">تمكين الشباب التونسي لبناء مسارات مهنية ناجحة وحياة مرضية من خلال الاندماج المنظم والدعم المجتمعي.</p>
+</div>
+</section>
+
+<section className="max-w-7xl mx-auto px-6 py-20">
+<div className="grid md:grid-cols-2 gap-12 items-center">
+<div>
+<h2 className="text-3xl font-bold mb-6">قصتنا</h2>
+<div className="space-y-4 text-slate-600 dark:text-slate-400 leading-relaxed">
+<p>ولدت Tunibless من ملاحظة بسيطة: الرحلة من تونس إلى ألمانيا مليئة بالفرص، ولكنها محفوفة بالتحديات. أدرك مؤسسونا، وهم مجموعة من المحترفين الذين خاضوا هذا المسار بأنفسهم، أن النجاح يتطلب أكثر من مجرد تأشيرة - إنه يتطلب مجتمعاً.</p>
+<p>تأسست الجمعية في عام 2021، ونمت من مجموعة استشارية صغيرة إلى جمعية غير ربحية شاملة مكرسة لتغيير الحياة من خلال التبادل الثنائي والاندماج الثقافي.</p>
+<p>رؤيتنا هي مستقبل يمتلك فيه كل شاب تونسي طموح الأدوات والمعرفة وشبكة الدعم للتميز في المشهد المهني الألماني، والمساهمة في نمو كلا البلدين.</p>
+</div>
+</div>
+<div className="bg-primary/10 rounded-xl p-4">
+<img className="rounded-lg shadow-xl" data-alt="Group of diverse young professionals working together in a modern office" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC23J9T3jXheE7gNsumhDmnl77RUc_Vdd2h5AIX7E8RB7OmDw_5xtBKB3RvkmyWaH6K1IHBDnqllcLOUl7b-pzkOwPZ916Oc7R4FX6M8n6LylUjI7kbNwP9qDkoQmAUEIOR3FdmC54hJEUkkjlYYPv75xIwrJW-4xmQoSN0kSfDSRAlzr50dWeNxp-hXZSqOtG8DJq7_jjBo8Xd-KoGFxJtHG3pE05p3mxLcpvBPqvoIx7yxm4qSUmvYXVNOVGK_3GRKS3L1Jl4bVov"/>
+</div>
+</div>
+</section>
+
+<section className="bg-slate-50 dark:bg-background-dark/50 py-20 px-6">
+<div className="max-w-7xl mx-auto">
+<div className="text-center mb-16">
+<h2 className="text-3xl font-bold mb-4">فريقنا</h2>
+<p className="text-slate-600 dark:text-slate-400">الأفراد الشغوفون الذين يقفون وراء Tunibless.</p>
+</div>
+<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+<div className="bg-white dark:bg-background-dark p-8 rounded-xl border border-slate-100 dark:border-slate-800 shadow-sm">
+<div className="bg-primary/20 text-primary p-3 rounded-lg inline-block mb-4">
+<span className="material-symbols-outlined text-3xl">bolt</span>
+</div>
+<h3 className="font-bold text-xl mb-2">أحمد بن علي</h3>
+<p className="text-slate-600 dark:text-slate-400 text-sm">الرئيس والمؤسس</p>
+</div>
+<div className="bg-white dark:bg-background-dark p-8 rounded-xl border border-slate-100 dark:border-slate-800 shadow-sm">
+<div className="bg-primary/20 text-primary p-3 rounded-lg inline-block mb-4">
+<span className="material-symbols-outlined text-3xl">diversity_3</span>
+</div>
+<h3 className="font-bold text-xl mb-2">لينا شميت</h3>
+<p className="text-slate-600 dark:text-slate-400 text-sm">مديرة البرنامج</p>
+</div>
+<div className="bg-white dark:bg-background-dark p-8 rounded-xl border border-slate-100 dark:border-slate-800 shadow-sm">
+<div className="bg-primary/20 text-primary p-3 rounded-lg inline-block mb-4">
+<span className="material-symbols-outlined text-3xl">groups</span>
+</div>
+<h3 className="font-bold text-xl mb-2">ياسين منصور</h3>
+<p className="text-slate-600 dark:text-slate-400 text-sm">المستشار القانوني</p>
+</div>
+<div className="bg-white dark:bg-background-dark p-8 rounded-xl border border-slate-100 dark:border-slate-800 shadow-sm">
+<div className="bg-primary/20 text-primary p-3 rounded-lg inline-block mb-4">
+<span className="material-symbols-outlined text-3xl">stars</span>
+</div>
+<h3 className="font-bold text-xl mb-2">سارة الطرابلسي</h3>
+<p className="text-slate-600 dark:text-slate-400 text-sm">مسؤولة المجتمع</p>
+</div>
+</div>
+</div>
+</section>
+
+<section className="max-w-7xl mx-auto px-6 py-20">
+<div className="flex flex-col md:flex-row items-center gap-16">
+<div className="md:w-1/2">
+<img className="rounded-full border-8 border-primary/10 w-full max-w-md mx-auto" data-alt="Abstract illustration representing global networking and legal support" src="https://lh3.googleusercontent.com/aida-public/AB6AXuARnBfFQQypIRP6FCXMXE1sCNwIg7M94J2wtLAKieTTsmY6F_Z9G-tDFnO32lzxrCN71Hnz0TpSxmUqoRcr96w32J8jA4X8re6YgDCVGCinLEpwmAvFLRN1vVI9ngMLhnNTS625aCTXDa7E8jjtQ9653Yq0BBS9DmpQvWzhvKgttIx90EjiL9yraN-fj1KkmlsjY4lqBd1ihP3fV1j1SWu-KAVAIHhbnzlMVSJwypWv_SLzE5zZ_wAhZ1Ocmw2pq66Rm11Ycr0-eTnQ"/>
+</div>
+<div className="md:w-1/2">
+<h2 className="text-3xl font-bold mb-8">ماذا نفعل</h2>
+<div className="space-y-8">
+<div className="flex gap-4">
+<span className="material-symbols-outlined text-primary text-3xl shrink-0">school</span>
+<div>
+<h4 className="font-bold text-lg">التدريب المهني</h4>
+<p className="text-slate-600 dark:text-slate-400">ورش عمل قائمة على المهارات ومصممة خصيصاً لمتطلبات سوق العمل الألماني.</p>
+</div>
+</div>
+<div className="flex gap-4">
+<span className="material-symbols-outlined text-primary text-3xl shrink-0">work_history</span>
+<div>
+<h4 className="font-bold text-lg">التدريب المهني</h4>
+<p className="text-slate-600 dark:text-slate-400">ورش عمل قائمة على المهارات ومصممة خصيصاً لمتطلبات سوق العمل الألماني.</p>
+</div>
+</div>
+<div className="flex gap-4">
+<span className="material-symbols-outlined text-primary text-3xl shrink-0">gavel</span>
+<div>
+<h4 className="font-bold text-lg">الدعم القانوني</h4>
+<p className="text-slate-600 dark:text-slate-400">التنقل في المشهد المعقد للتأشيرات وتصاريح العمل ومتطلبات الإقامة.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section className="bg-slate-50 dark:bg-background-dark/50 py-20 px-6">
+<div className="max-w-7xl mx-auto">
+<div className="text-center mb-16">
+<h2 className="text-3xl font-bold mb-4">فريقنا</h2>
+<p className="text-slate-600 dark:text-slate-400">الأفراد الشغوفون الذين يقفون وراء Tunibless.</p>
+</div>
+<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+<div className="text-center">
+<img className="size-48 rounded-full mx-auto object-cover border-4 border-white dark:border-slate-800 shadow-lg mb-4" data-alt="Professional headshot of founder" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDvvjKlmBKRrww9KI1eQDoaWIF6zCYePtGKogW1Z2qqKM_odUo7kQ1oaA8YR2Tv_9fLsAw8TvDcNeHVdKgLcnM0pH5tO7QTKJUFYLOYm1ZrSIfRRsQ2eoJjdU1otQ4gtbZ344jMmz2VmooLWfHzNZs154pnVzQgo-jQL5qaStfOe19iIAIMk1MZE4Eieuie_sVGhm2wV6zfjnfMRkIvPtYSGeEImTbe4d06AbJKchR5uqbIw6iZAbRmXN4Ci03pqoaAZYq8Fm8LjY9r"/>
+<h3 className="font-bold text-lg">أحمد بن علي</h3>
+<p className="text-primary font-medium text-sm">الرئيس والمؤسس</p>
+</div>
+<div className="text-center">
+<img className="size-48 rounded-full mx-auto object-cover border-4 border-white dark:border-slate-800 shadow-lg mb-4" data-alt="Professional headshot of program director" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBSw9gu_B6wFhrHLmgKCUNcdugu9rHv52sp8bteR7xW-niAWofM4aK5TgRL4KUwnzT7jRQX9u7YlEWM_ZHIUgvZGg2985w-a5FKjcqWp6nsK-nO6zG2Yu7Sj7tGcrKkz4zLOEhVU-3I72rN1mttAlbb2f6YIskEtCXrP869D1ooCEXGwT6AgXseTCYlZyew49mPEtj_hgt11CEGSlvIN5qaXyZ-xYWeAAdsgXAh7dMZwf-WshUdsmWXJ3k2y7kyJLIaH_qdChITrdmx"/>
+<h3 className="font-bold text-lg">لينا شميت</h3>
+<p className="text-primary font-medium text-sm">مديرة البرنامج</p>
+</div>
+<div className="text-center">
+<img className="size-48 rounded-full mx-auto object-cover border-4 border-white dark:border-slate-800 shadow-lg mb-4" data-alt="Professional headshot of legal counsel" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAvc1Eq_QWG3QZgcokP1nZ7yZY8NYfo5-yUDkgpA09r4ZazPXD3Ls2maccP5u7a1zhjxCc_q6AshPkMen5eVqcZPlIN1mRMcUD1hUpXA1dBtovoqTef8HunFrTKSBwMhugFFQ7ESPiYTlPOQ8ZW2IKIBt9wfTmXnYOQpUmD8w5Wo2VspYncl7JB-Ig6WyfTcaTW-CyAC4UNnX3wyZ2A4vZLwaWfkSIsN6jSvK280V01S1zRpsh1i-Qj4apcrN9ZQgwWxZxSxazp2vQY"/>
+<h3 className="font-bold text-lg">ياسين منصور</h3>
+<p className="text-primary font-medium text-sm">المستشار القانوني</p>
+</div>
+<div className="text-center">
+<img className="size-48 rounded-full mx-auto object-cover border-4 border-white dark:border-slate-800 shadow-lg mb-4" data-alt="Professional headshot of community manager" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA1bfCxHekXSno8Ka6hzoUCHZrWk-z8dT4_DL_Mve1Q0jnw2gx-CZfmmOkExd21615f5RNzfCQjNnaIxe5bXRFs_sKQwB7K9rtDoQGHLZQe3OzyWh2NL22VRpf2H5DwTchYV34ARrOyR6J1_TetXzbS6wMaUMregjPUTecMHsV-rcnWTPtobBHBSdD1hpWd3MDVYrjlRt_-YSfsytLtlBZ4pCMFMWbkVpjvpvRK-Hpdtjckakd63s-1J4eGr3x5lxBGTSA6xB1_E_i_"/>
+<h3 className="font-bold text-lg">سارة الطرابلسي</h3>
+<p className="text-primary font-medium text-sm">مسؤولة المجتمع</p>
+</div>
+</div>
+</div>
+</section>
+
+<section className="max-w-7xl mx-auto px-6 py-20">
+<div className="bg-background-dark rounded-3xl p-12 text-center text-white relative overflow-hidden">
+<div className="absolute inset-0 opacity-10" style={{ backgroundImage: "radial-gradient(circle at 2px 2px, white 1px, transparent 0)", backgroundSize: "40px 40px" }}></div>
+<div className="relative z-10">
+<h2 className="text-3xl md:text-4xl font-black mb-6">هل أنت مستعد لإحداث فرق؟</h2>
+<p className="text-slate-300 max-w-xl mx-auto mb-10">سواء كنت طالباً تبحث عن مستقبل في ألمانيا أو شخصاً يرغب في دعم مهمتنا، يسعدنا انضمامك إلينا.</p>
+<div className="flex flex-col sm:flex-row gap-4 justify-center">
+<button className="bg-primary text-background-dark font-bold px-8 py-4 rounded-xl hover:bg-opacity-90 transition-all">انضم إلى مهمتنا</button>
+<button className="bg-transparent border-2 border-primary text-primary font-bold px-8 py-4 rounded-xl hover:bg-primary hover:text-background-dark transition-all">تبرع الآن</button>
+</div>
+</div>
+</div>
+</section>
+</main>
+
+<footer className="bg-slate-50 dark:bg-background-dark border-t border-slate-200 dark:border-slate-800 px-6 md:px-20 py-12">
+<div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-12">
+<div className="max-w-xs">
+<div className="flex items-center gap-2 mb-6">
+<img className="size-6" data-alt="Tunibless icon" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCIkMiqvKjneEkFM4YwgdmhBpVrVrE9yiFAbCsnFj3rCVXOFta0TjeY-qg47Ly8WeberRvoziQKXWNoHUw6a3KvhOjNUMZfhY49Fnus68cqqU-PhGlJz7vB3DxMZduFv-mUVcR-ciVS04omgkmYltto4b3f1edxCQlRXCKidtVnwgLsxSTZELCxjILq_M2nY6ZcPDZ9yQfuOBRiT8YSSYb6uFl5Ed--aiEqqO1-vlBJgiRl6B2EEaVUzsnGbPYSV5N3yhVgaHJB12EU"/>
+<h2 className="text-lg font-bold">Tunibless</h2>
+</div>
+<p className="text-sm text-slate-500 dark:text-slate-400">جمعية غير ربحية مكرسة لدعم الجيل القادم من المواهب التونسية في ألمانيا.</p>
+</div>
+<div className="grid grid-cols-2 sm:grid-cols-3 gap-8">
+<div>
+<h4 className="font-bold mb-4 text-sm uppercase tracking-wider">التنقل</h4>
+<ul className="space-y-2 text-sm text-slate-500 dark:text-slate-400">
+<li><a className="hover:text-primary" href="#">الرئيسية</a></li>
+<li><a className="hover:text-primary font-bold text-primary" href="#">من نحن</a></li>
+<li><a className="hover:text-primary" href="#">برامجنا</a></li>
+<li><a className="hover:text-primary" href="#">المدونة</a></li>
+</ul>
+</div>
+<div>
+<h4 className="font-bold mb-4 text-sm uppercase tracking-wider">التنقل</h4>
+<ul className="space-y-2 text-sm text-slate-500 dark:text-slate-400">
+<li><a className="hover:text-primary" href="#">الرئيسية</a></li>
+<li><a className="hover:text-primary" href="#">من نحن</a></li>
+<li><a className="hover:text-primary" href="#">برامجنا</a></li>
+</ul>
+</div>
+<div>
+<h4 className="font-bold mb-4 text-sm uppercase tracking-wider">التنقل</h4>
+<div className="flex gap-4">
+<a className="text-slate-400 hover:text-primary" href="#"><span className="material-symbols-outlined">public</span></a>
+<a className="text-slate-400 hover:text-primary" href="#"><span className="material-symbols-outlined">alternate_email</span></a>
+<a className="text-slate-400 hover:text-primary" href="#"><span className="material-symbols-outlined">share</span></a>
+</div>
+</div>
+</div>
+</div>
+<div className="max-w-7xl mx-auto mt-12 pt-8 border-t border-slate-200 dark:border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-400">
+<p>© 2024 جمعية Tunibless. جميع الحقوق محفوظة.</p>
+<div className="flex gap-6">
+<a className="hover:text-primary" href="#">سياسة الخصوصية</a>
+<a className="hover:text-primary" href="#">شروط الخدمة</a>
+</div>
+</div>
+</footer>
+</div>
+
+    </>
+  );
+}
+  
